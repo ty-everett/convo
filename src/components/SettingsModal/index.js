@@ -41,7 +41,7 @@ const SettingsModal = ({ history, localProfile }) => {
           paragraph
           className={classes.profile_link}
         >
-          {`https://convo.babbage.systems/convos/${localProfile.userID}`}
+          {`https://convo-dark.netlify.app/convos/${localProfile.userID}`}
         </Typography>
         <Typography variant='h4'>
           App Version

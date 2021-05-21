@@ -6,6 +6,8 @@ export default theme => ({
     gridColumnGap: '0px',
     padding: '0px',
     height: '100vh',
+    backgroundColor: '#1c1c1c',
+    color: '#ffffff',
     [theme.breakpoints.down('md')]: {
       gridTemplateColumns: '1fr 1fr'
     },

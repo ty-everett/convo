@@ -1,8 +1,20 @@
-# Convo Mesenger
+# Convo Dark
 
-A private messaging app built with Project Babbage
+This is a fork of the [Convo Messenger codebase](https://github.com/p2ppsr/convo), but for people who would prefer a dark theme.
 
-## Overview
+The purpose is to demonstrate that when two apps use the same blockchain protocols, people can use the apps of their choosing.
+
+Alice likes the Convo UX more, so she uses Convo Messenger. Ty likes dark things, so he can use Convo Dark. Alice and Ty can still talk to one another, and they each get their ideal UX.
+
+Convo Messenger makes money when Alice sends messages in their app, while Convo Dark makes money when Ty sends his messages in the Dark app. The one with the best UX and lowest commissions will make the most money.
+
+The Convo Dark commission is only taken on 1.5% of transactions, while the Convo commission is taken from 2% of transactions.
+
+You can use Convo Dark on the internet by going to [convo-dark.netlify.app](https://convo-dark.netlify.app).
+
+**NOTE:** Please send any pull requests to the [base repository](https://github.com/p2ppsr/convo) and not this one.
+
+## Overview (from the Convo repo)
 
 This is a React app demonstrating the use of [Babbage](https://projectbabbage.com) technologies with a simple private messaging experience.
 

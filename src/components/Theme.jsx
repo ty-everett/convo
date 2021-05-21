@@ -13,23 +13,35 @@ const baseTheme = createMuiTheme({
   typography: {
     h1: {
       fontWeight: 'bold',
-      fontSize: '2.5em'
+      fontSize: '2.5em',
+      color: '#fff'
     },
     h2: {
       fontWeight: 'bold',
-      fontSize: '1.7em'
+      fontSize: '1.7em',
+      color: '#fff'
     },
     h3: {
-      fontSize: '1.4em'
+      fontSize: '1.4em',
+      color: '#fff'
     },
     h4: {
-      fontSize: '1.25em'
+      fontSize: '1.25em',
+      color: '#fff'
     },
     h5: {
-      fontSize: '1.1em'
+      fontSize: '1.1em',
+      color: '#fff'
     },
     h6: {
-      fontSize: '1em'
+      fontSize: '1em',
+      color: '#fff'
+    }
+  },
+  palette: {
+    type: 'dark',
+    background: {
+      paper: '#1c1c1c'
     }
   },
   overrides: {},
@@ -82,7 +94,8 @@ export default withStyles({
   '@global body': {
     padding: '0px',
     margin: '0px',
-    fontFamily: 'helvetica'
+    fontFamily: 'helvetica',
+    backgroundColor: '#1c1c1c'
   },
   '@global a': {
     textDecoration: 'none',

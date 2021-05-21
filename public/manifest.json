@@ -1,6 +1,6 @@
 {
-  "short_name": "Convo",
-  "name": "Convo Messenger",
+  "short_name": "Convo Dark",
+  "name": "Convo Dark",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,13 +20,13 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "background_color": "#1c1c1c",
   "babbage": {
     "commission": {
-      "frequency": 0.02,
+      "frequency": 0.015,
       "amount": 1000,
-      "address": "1ConvoAHQkqnArSk35PApPzfgmdi984nkE"
+      "address": "1DarkwkyPRqrAZss7XB12VuxeHwG3bf8eK"
     },
     "pathPermissions": {
       "m/2000": "We use this data so that you can send messages and manage your Convo profile with our app."
