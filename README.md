@@ -14,6 +14,8 @@ You can use Convo Dark on the internet by going to [convo-dark.netlify.app](http
 
 **NOTE:** Please send any pull requests to the [base repository](https://github.com/p2ppsr/convo) and not this one.
 
+[View Convo Dark on the web](https://convo-dark.netlify.app)
+
 ## Overview (from the Convo repo)
 
 This is a React app demonstrating the use of [Babbage](https://projectbabbage.com) technologies with a simple private messaging experience.
