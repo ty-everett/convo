@@ -101,10 +101,13 @@ export default async ({ to, message }) => {
         script: x.outputScript
       }))
     })
+    console.log(result)
     resultTXID = result.txid
     await upload({
       referenceNumber,
-      transactionHex: result.rawTransaction,
+      transactionHex: result.rawTx,
+      inputs: result.inputs,
+      mapiResponses: result.mapiResponses,
       file: new File([fileBuffer], 'image.png')
     })
 
@@ -124,6 +127,7 @@ export default async ({ to, message }) => {
         encryptedContent
       ]
     })
+    console.log(result)
     resultTXID = result.txid
   }
 
