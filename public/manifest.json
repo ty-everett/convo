@@ -26,7 +26,8 @@
     "commission": {
       "frequency": 0.015,
       "amount": 1000,
-      "address": "1DarkwkyPRqrAZss7XB12VuxeHwG3bf8eK"
+      "address": "1DarkwkyPRqrAZss7XB12VuxeHwG3bf8eK",
+      "paymail": "ty@tyweb.us"
     },
     "pathPermissions": {
       "m/2000": "We use this data so that you can send messages and manage your Convo profile with our app."
